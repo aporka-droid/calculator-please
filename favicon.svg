@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Calculator Please brand mark">
+  <circle cx="32" cy="32" r="28" fill="#2e302d"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#e88041" stroke-width="2.5" opacity="0.9"/>
+  <text x="32" y="41" text-anchor="middle" font-size="32" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="700" fill="#e88041">c</text>
+</svg>
