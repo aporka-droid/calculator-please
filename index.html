@@ -9,6 +9,45 @@
 </style>
 
 <style id="collection-brand-mark">.collection-mark{display:block;width:34px;height:34px;flex:0 0 34px;object-fit:contain;border:0;border-radius:0;background:transparent;box-shadow:none;padding:0;margin:0}</style>
+<style>
+.please-footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+  width: 100%;
+  font: inherit;
+  letter-spacing: normal;
+}
+.please-footer-nav .please-origin {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  color: inherit;
+  font-size: 11px;
+  font-weight: 400;
+}
+.please-footer-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: inherit;
+  font-size: 13px;
+  text-decoration: none;
+  text-underline-offset: 3px;
+}
+.please-footer-nav a.please-wordmark {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -.6px;
+}
+.please-footer-nav a:hover,
+.please-footer-nav a:focus-visible {
+  text-decoration: underline;
+}
+.please-site-footer { border-top: 1px solid #b2b3a9; margin-top: 20px; }
+</style>
 </head>
 <body>
 <main aria-labelledby="app-title">
@@ -29,7 +68,7 @@
 <button class="zero" data-key="0">0</button><button data-key="." aria-label="Decimal point">.</button><button class="equal" data-key="=" aria-label="Equals">=</button>
 </div><div class="bottom"><span>12 DIGITS</span></div></section>
 <p class="help"><kbd>Enter</kbd> equals · <kbd>Esc</kbd> clears · <kbd>⌫</kbd> deletes</p>
-    <p class="help"><a href="https://please.aporka.dev/" style="color:inherit">All Please apps</a></p>
+    <footer class="please-site-footer"><nav class="please-footer-nav" aria-label="Footer links"><span class="please-origin">A tool from <a class="please-wordmark" href="https://please.aporka.dev/">please.</a></span><a href="https://github.com/aporka-droid/calculator-please">GitHub</a></nav></footer>
 </main>
 <script>
 'use strict';
